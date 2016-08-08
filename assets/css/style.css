@@ -1,0 +1,77 @@
+/*font-family: 'Gruppo', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Galindo', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Coustard', serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Cherry Cream Soda', cursive;
+font-family: 'Slackey', cursive;*/
+
+body {
+
+}
+h1 {
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 65px;
+  font-family: 'Slackey', cursive;
+  letter-spacing: 6px;
+  -webkit-text-fill-color: #FEF84E;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.00px;
+}
+.background-img {
+  background: url(../images/static-color-bars.jpg);
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 1280px;
+  height: 800px;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);
+}
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.tv-image {
+  background: url(../images/oldTV-alpha2.png);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 12;
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 670px;
+  height: 515px;
+  padding: 0px;
+}
+.white-background {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 480px;
+  height: 425px;
+  margin-top: 160px;
+  margin-left: 335px;
+
+}
+

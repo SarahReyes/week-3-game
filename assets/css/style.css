@@ -25,6 +25,17 @@ h1 {
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1.00px;
 }
+h2 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 225px;
+  margin-left: 374px;
+}
 .background-img {
   background: url(../images/static-color-bars.jpg);
   position: fixed;
@@ -33,13 +44,11 @@ h1 {
   display: block;
   width: 1280px;
   height: 800px;
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
-  filter: grayscale(60%);
-  -webkit-filter: grayscale(60%);
+  filter: blur(2px) grayscale(60%);
+  -webkit-filter: blur(2px) grayscale(60%);
+  -moz-filter: blur(2px) grayscale(60%);
+  -o-filter: blur(2px) grayscale(60%);
+  -ms-filter: blur(2px) grayscale(60%);
 }
 .content {
   position: fixed;
@@ -72,6 +81,60 @@ h1 {
   height: 425px;
   margin-top: 160px;
   margin-left: 335px;
-
+}
+.top-line {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 225px;
+  margin-left: 360px;
+}
+.current-tv-show {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 290px;
+  margin-left: 360px;
+}
+.number-of-guesses {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 330px;
+  margin-left: 360px;
+}
+.letters-picked {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 360px;
+  margin-left: 360px;
+}
+.wins {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 390px;
+  margin-left: 360px;
 }
 

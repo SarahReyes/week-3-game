@@ -10,10 +10,10 @@ var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
 //     console.log(userGuessBeforeConversion);
 
 // }
-var tvShow = "Cheers";
+var tvShow = "Friends";
 var numberOfGuesses = 15;
 var lettersPicked;
-var wins;
+var wins = 0;
 
 document.onkeyup = function(event) {
    var html = "<div class='top-line'><h3>Guess A Letter To Name That TV Show</h3></div>" +

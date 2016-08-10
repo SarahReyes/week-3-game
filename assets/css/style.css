@@ -31,10 +31,10 @@ h2 {
   right: 0;
   z-index: 11;
   font-family: 'Maven Pro', sans-serif;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: bold;
-  margin-top: 225px;
-  margin-left: 374px;
+  margin-top: 360px;
+  margin-left: 356px;
 }
 .background-img {
   background: url(../images/static-color-bars.jpg);
@@ -90,7 +90,7 @@ h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 225px;
+  margin-top: 250px;
   margin-left: 360px;
 }
 .current-tv-show {
@@ -99,10 +99,11 @@ h2 {
   right: 0;
   z-index: 11;
   font-family: 'Maven Pro', sans-serif;
-  font-size: 24px;
+  font-size: 65px;
   font-weight: bold;
-  margin-top: 290px;
-  margin-left: 360px;
+  letter-spacing: 10px;
+  margin-top: 300px;
+  margin-left: 440px;
 }
 .number-of-guesses {
   position: fixed;
@@ -112,8 +113,8 @@ h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 330px;
-  margin-left: 360px;
+  margin-top: 390px;
+  margin-left: 385px;
 }
 .letters-picked {
   position: fixed;
@@ -123,8 +124,8 @@ h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 360px;
-  margin-left: 360px;
+  margin-top: 440px;
+  margin-left: 370px;
 }
 .wins {
   position: fixed;
@@ -132,9 +133,9 @@ h2 {
   right: 0;
   z-index: 11;
   font-family: 'Maven Pro', sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  margin-top: 390px;
-  margin-left: 360px;
+  margin-top: 490px;
+  margin-left: 480px;
 }
 

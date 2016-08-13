@@ -68,7 +68,7 @@ $(document).ready(function() {
     document.onkeyup = function(event) {
       userGuess = String.fromCharCode(event.keyCode).toLowerCase();
       //has the user already picked the letter, don't repeat in the line
-      if (hasUserPickedThisLetter(userGuess)) {
+      if (!hasUserPickedThisLetter(userGuess)) {
         lettersPicked.push(userGuess);
       }
       //deducted from remaining guesses each time there is a user guess

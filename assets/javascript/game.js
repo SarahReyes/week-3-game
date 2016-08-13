@@ -76,7 +76,8 @@ $(document).ready(function() {
 
       if (noUnderscores()) {
         wins = wins + 1;
-        }
+      }
+
 
       updateHtml();
     };
